@@ -28,7 +28,7 @@ namespace CleanCodeChapter7
         {
             if (employees.Count == 0) 
             {
-                return [];  // Return an empty list if the employees list is empty
+                return [];  // Return an empty list
             }
             
             return employees;

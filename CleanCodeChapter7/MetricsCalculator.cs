@@ -21,9 +21,9 @@ namespace CleanCodeChapter7
             if (p1 == null || p2 == null)
             {
 
-                throw new ArgumentNullException(
+                throw new ArgumentException(  // ArgumentNullException funker også her
 
-                    "Invalid argument for MetricsCalculator.xProjection") ;
+                    "Invalid argument for MetricsCalculator.xProjection");
 
             }
 

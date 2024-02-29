@@ -31,7 +31,10 @@ namespace CleanCodeChapter7
         }
 
         internal bool HasRetailOwner() {
-            if (this == null) return false;
+            if (this == null)
+            {
+                return false;
+            }
 
             return true;
         }
